@@ -1,3 +1,3 @@
 def call(version) {
-    echo "Hello, ${name}!"
+    sh "systemctl status jenkins"
 }
